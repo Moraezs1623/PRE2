@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissão: Programador Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="topo">
+        <h1>Profissão: Programador Web</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre a Profissão</a></li>
+                <li><a href="#habilidades">Habilidades Necessárias</a></li>
+                <li><a href="#ferramentas">Ferramentas</a></li>
+                <li><a href="#links-imagens">Links e Imagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>O que faz um Programador Web?</h2>
+        <p>O programador web é responsável por criar e manter sites e aplicações web, trabalhando tanto no frontend quanto no backend.</p>
+        <h3>Por que ser um programador web?</h3>
+        <p><strong>Flexibilidade</strong>: É uma carreira que permite trabalhar de qualquer lugar.</p>
+        <p><em>Alta demanda</em>: Com o crescimento da internet, a demanda por programadores web está em alta.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades Necessárias</h2>
+        <ul>
+            <li>Conhecimento em HTML, CSS e JavaScript</li>
+            <li>Experiência com frameworks de frontend (React, Angular, etc.)</li>
+            <li>Compreensão de design responsivo</li>
+        </ul>
+        <h3>Outras Habilidades</h3>
+        <ol>
+            <li>Versionamento de código (Git)</li>
+            <li>Gerenciamento de bancos de dados</li>
+            <li>Conhecimentos em segurança web</li>
+        </ol>
+    </section>
+
+    <section id="ferramentas">
+        <h2>Ferramentas Comuns</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Database</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>React</td>
+                    <td>Node.js</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>PHP</td>
+                    <td>PostgreSQL</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Django (Fullstack)</td>
+                    <td>MongoDB</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="links-imagens">
+        <h2>Links e Imagens</h2>
+        <h3>Links Externos</h3>
+        <p>Visite o site da <a href="https://www.w3schools.com" target="_blank">W3Schools</a> para aprender mais sobre desenvolvimento web.</p>
+        <h3>Links Internos</h3>
+        <p>Volte para o <a href="#sobre">início da seção "Sobre a Profissão"</a>.</p>
+        <h3>Imagem</h3>
+        <img src="https://acadtec.com.br/storage/posts/pictures/ntVKoNURQUQhP9ghaf06607dcbf590338.jpg" width="400" height="250" alt="Programador trabalhando">
+        <p>Imagem de um programador trabalhando no seu ambiente de desenvolvimento.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="submit_form.html" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required><br><br>
+
+            <label>Selecione suas linguagens favoritas:</label><br>
+            <input type="checkbox" id="html" name="linguagem" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="linguagem" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="js" name="linguagem" value="JavaScript">
+            <label for="js">JavaScript</label><br><br>
+
+            <label>Você prefere Frontend ou Backend?</label><br>
+            <input type="radio" id="frontend" name="preferencia" value="Frontend">
+            <label for="frontend">Frontend</label><br>
+            <input type="radio" id="backend" name="preferencia" value="Backend">
+            <label for="backend">Backend</label><br><br>
+
+            <label for="experiencia">Nível de experiência:</label>
+            <select id="experiencia" name="experiencia">
+                <option value="iniciante">Iniciante</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option>
+            </select><br><br>
+
+            <label for="mensagem">Deixe uma mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Programadores Web   <a href="https://www.catho.com.br/profissoes/programador-web/" target="_blank">Visite nosso site</a></p>
+        <p><a href="#topo">Voltar ao topo</a></p>
+    </footer>
+
+</body>
+</html>
